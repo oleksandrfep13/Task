@@ -1,0 +1,18 @@
+using System;
+
+namespace MyApplication
+{
+    public class Shop
+    {
+        static void Main(string[] args)
+        {
+            string[] products = { "Potato", "Carrot", "Meal", "Fish", "Apple" };
+            int[] prices = { 20, 25, 40, 50, 15 };
+            
+            for (int x = 0; x < products.Length; x++)
+            {
+                Console.WriteLine($"Product: {products[x]}, Price: {prices[x]}");
+            }
+        }
+    }
+}

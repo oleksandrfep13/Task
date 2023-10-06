@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class HelloWorld {
+    public static void main(String[] args) {
+        
+        Scanner x = new Scanner(System.in);
+        System.out.println("What is a product you want to choose");
+        String product = x.nextLine();
+        System.out.println("The product is " + product);
+        System.out.println("How much " + product + " cost?");
+        int price = x.nextInt();
+        System.out.println(product + " cost " + price);
+    }
+}
